@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body, html {
+    background: #1b1b32;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    align-items: center;
+    
+   
+}
+
+#title{
+    display: block;
+    text-align: center;
+}
+
+.title > h1 {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+ #description {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#survey-form {
+    background:  rgba(58, 58, 158, 0.8);
+    width: 50%;
+    height: 100%;
+    min-width: 490px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: (4, auto);
+    
+    
+}
+
+.block-1, 
+.block-2, 
+.block-3,
+.block-4
+ {
+    padding: 5px;
+    width: 100%;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#textarea {
+    width: 90%;
+    height: 25px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+   
+}
+
+#textarea {
+    height: 150px;
+    padding: 10px;
+}
+
+#submit {
+    width: 90%;
+    height: 40px;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #37af65;
+    border-color: #37af65;
+    color: white;
+    
+
+}
+
+.improved {
+    display: flex;
+    margin-block-end: 10px;
+
+}
+
+.block-3 .improved > p {
+    margin-left: 10px;
+    font-size: 70%;
+    padding-top: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    
+    #survey-form {
+            width: 100%;
+            
+           
+            
+    }
+}
+
+
